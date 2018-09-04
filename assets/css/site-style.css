@@ -2,6 +2,7 @@
 .header_logo {
   background-color: #e3d3b6;
   text-align: center;
+  width: 25%;
 }
 .header_logo img {
   height: 100px;
@@ -13,20 +14,17 @@
 
 .header_menu_bg {
   background-color: #50342c;
-  height: 100px;
-  min-height: 100px;
-  vertical-align: middle;
-  padding: 1.6rem 1.5rem 1.6rem 1.5rem;    
 }
 
 .header_contacts {
- 
+  height: 100px;
+  min-height: 100px;
+  vertical-align: middle;
+  padding: 1.6rem 1.5rem 1.6rem 1.5rem;
 }
 .header_contacts_block {
-  
 }
 .header_email_item {
-
 }
 
 .header_email_link,
@@ -39,7 +37,6 @@
   color: #ffffff;
   text-decoration: none;
 }
-
 
 .h_bottom {
   background-color: #edcd1f;
