@@ -1,3 +1,4 @@
+/* header */
 .header_logo {
   background-color: #e3d3b6;
   text-align: center;
@@ -14,10 +15,31 @@
   background-color: #50342c;
   height: 100px;
   min-height: 100px;
+  vertical-align: middle;
+  padding: 1.6rem 1.5rem 1.6rem 1.5rem;    
 }
 
 .header_contacts {
+ 
 }
+.header_contacts_block {
+  
+}
+.header_email_item {
+
+}
+
+.header_email_link,
+.header_tell_link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.header_email_link:hover,
+.header_tell_link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 
 .h_bottom {
   background-color: #edcd1f;
@@ -30,7 +52,7 @@ h2 {
 h4 {
   color: #3d5975;
 }
-
+/* hero */
 .hero {
   background: url("../img/header_fon.jpg") no-repeat top center;
   width: 100%;
