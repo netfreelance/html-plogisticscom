@@ -16,10 +16,7 @@
   min-height: 100px;
 }
 
-
-
-.header_contacts{
-
+.header_contacts {
 }
 
 .h_bottom {
@@ -32,4 +29,76 @@ h2 {
 
 h4 {
   color: #3d5975;
+}
+
+.hero {
+  background: url("../img/header_fon.jpg") no-repeat top center;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  /*margin-top: 121px;*/
+}
+
+.hero-logo {
+  margin: 62px auto 62px auto;
+  text-align: center;
+}
+
+.hero-h1 {
+  margin: 5px auto 5px auto;
+  padding: 1px;
+  text-align: center;
+  border-radius: 5px;
+
+  width: 61%;
+  color: #ffffff;
+}
+
+.hero-h1 h1 {
+  font-weight: bold;
+  font-family: kelly slab, fantasy;
+  font-size: 3.5em;
+}
+
+.hero-p {
+  margin: 5px auto 20px auto;
+  background-color: rgba(0, 0, 0, 0.99);
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: kelly slab, fantasy;
+  font-size: 1em;
+  width: 46%;
+}
+
+.hero-p p {
+  margin: 0 auto 0 auto;
+  color: #ff8800;
+  font-size: 18px;
+  border-radius: 5px;
+  font-family: kelly slab, fantasy;
+  letter-spacing: 0.19em;
+}
+
+.hero-button {
+  margin: 53px auto 77px auto;
+  color: #ff8800;
+  font-size: 18px;
+  text-align: left !important;
+  border-radius: 5px;
+  font-family: "Jura", sans-serif;
+  letter-spacing: 4px !important;
+}
+
+.btn-outline-orange {
+  background-color: #ffffff;
+  margin: 20px auto 20px auto;
+  color: #000000;
+  font-size: 18px;
+  border-radius: 25px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  margin-left: 80px;
+  font-family: "PosterBodoniBT-Roman";
+  font-family: "7380";
 }
