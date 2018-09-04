@@ -1,6 +1,35 @@
-.header_logo_bg{
-    background-color: #E3D3B6;
+.header_logo {
+  background-color: #e3d3b6;
+  text-align: center;
 }
-.header_menu_bg{
-    background-color: #50342C;
+.header_logo img {
+  height: 100px;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu_bg {
+  background-color: #50342c;
+  height: 100px;
+  min-height: 100px;
+}
+
+
+
+.header_contacts{
+
+}
+
+.h_bottom {
+  background-color: #edcd1f;
+}
+
+h2 {
+  color: #c6c6c6;
+}
+
+h4 {
+  color: #3d5975;
 }
