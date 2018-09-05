@@ -191,6 +191,12 @@ h4 {
   width: 80px;
   margin: 5px auto 15px 0px;
 }
+.aboutus-text p{
+  line-height:2.0rem;
+  letter-spacing: normal;
+  text-align: justify;
+  margin: 0 80px 0 0;
+}
 
 .aboutus-fon {
   background: url("../img/about_us.jpg") no-repeat top center;

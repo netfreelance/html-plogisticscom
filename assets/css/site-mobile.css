@@ -6,11 +6,16 @@
 
 @media (min-width: 0) {
   /*** MENU ***/
-
+.header_logo {
+  background-color: #50342c;
+}
   /*** HERO ***/
 
   /*** ABOUT US ***/
-
+.aboutus-text p{
+  text-align: justify;
+  margin: 0 0 0 0;
+}
   /*** OUR-SERVICE ***/
 
   /*** OUR SOLUTION ***/
@@ -27,6 +32,11 @@
 
   /*** HERO ***/
 
+  /*** ABOUT US ***/
+.aboutus-text p{
+  text-align: justify;
+  margin: 0 0 0 0;
+}
   /*** OUR-SERVICE ***/
 
   /*** OUR SOLUTION ***/
@@ -47,6 +57,14 @@
    padding: 0.5rem 1rem;
   }
   /*** HERO ***/
+
+ /*** ABOUT US ***/
+  .aboutus-text p{
+  line-height:2.0rem;
+  letter-spacing: normal;
+  text-align: justify;
+  margin: 0 80px 0 0;
+}
 }
 
 /**
@@ -94,6 +112,9 @@
 
 @media (min-width: 1200px) {
   /*** MENU ***/
+    .header_logo {
+  background-color: #e3d3b6;
+}
   .navbar {
     padding: 0;
   }
@@ -114,9 +135,13 @@
 
 @media (min-width: 1441px) {
   /*** MENU ***/
+  .header_logo {
+  background-color: #e3d3b6;
+}
   .navbar {
     padding: 0;
   }
+  
   /*** HERO ***/
 
   /*** OUR-SERVICE ***/
