@@ -224,15 +224,15 @@ h4 {
   border: 4px solid #edcd1f;
   width: 80px;
 }
-.gallery {
+.gallery-block {
   text-align: center;
   padding: 10px 10px 10px 10px;
 }
 
-.gallery img {
+.gallery-block img {
   width: 100%;
 }
-.gallery img:hover {
+.gallery-block img:hover {
   background-color: #ffffff;
   opacity: 0.3;
 }
