@@ -207,7 +207,6 @@ h4 {
   min-height: 200px;
 }
 
-
 /*** gallery ***/
 
 .gallery h2 {
@@ -225,10 +224,23 @@ h4 {
   border: 4px solid #edcd1f;
   width: 80px;
 }
+.gallery {
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.gallery img {
+  width: 100%;
+}
+.gallery img:hover {
+  background-color: #ffffff;
+  opacity: 0.3;
+}
 
 /*** contactus ***/
+
 .contactus {
-  background-color: #F7F5F5;
+  background-color: #f7f5f5;
 }
 
 .contactus h2 {
@@ -247,32 +259,57 @@ h4 {
   width: 80px;
 }
 
+.maps {
+  text-align: center;
+}
+.maps img {
+  min-width: 100%;
+  border: 1px solid #726c6c;
+  margin-bottom: 100px;
+}
+
+.contactus-h3{
+color: #3b3a3a;
+}
+
+.contactus-h4 {
+color: #3b3a3a;
+}
+
+.form-control {
+  background-color: #edcd1f;
+}
+
+.btn-brouwn {
+  background-color: #50342c;
+  color: #ffffff;
+  float: right;
+  margin-bottom: 20px;
+}
 
 /*** footer ***/
 
-
-
 .footer {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .footer .social > div {
-    display: inline-block;
-    width: 30px;
-    border-radius: 50%;
-    background-color: #939393;
-    padding: 3px 3px 3px 3px;
-    margin-left: 10px;
-    margin-right: 10px;
-    vertical-align: middle;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  display: inline-block;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #939393;
+  padding: 3px 3px 3px 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .social a {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .social {
-    text-align: center;
+  text-align: center;
 }
