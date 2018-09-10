@@ -69,7 +69,9 @@
    padding: 0.5rem 1rem;
   }
   /*** HERO ***/
-
+.hero-h1 h1 {
+    font-size: 4.5em;
+}
  /*** ABOUT US ***/
 .aboutus h2 {
   text-align: left;
