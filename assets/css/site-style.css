@@ -1,6 +1,7 @@
 /*** header ***/
 .header_logo {
-  background-color: #e3d3b6;
+ /* background-color: #e3d3b6;*/
+  background-color: #f2dbb3;
   text-align: center;
   width: 25%;
 }
@@ -66,7 +67,7 @@ h4 {
 }
 
 .hero-h1 {
-  margin: 5px auto 5px auto;
+  margin: 50px auto 5px auto;
   padding: 1px;
   text-align: center;
   border-radius: 5px;
@@ -125,6 +126,11 @@ h4 {
 }
 
 /*** solutions ***/
+
+
+.our-solutions{
+  margin: 50px 0 100PX 0;
+}
 
 .our-solutions h2 {
   text-align: center;
