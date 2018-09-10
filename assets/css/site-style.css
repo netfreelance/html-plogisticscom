@@ -1,6 +1,6 @@
 /*** header ***/
 .header_logo {
- /* background-color: #e3d3b6;*/
+  /* background-color: #e3d3b6;*/
   background-color: #f2dbb3;
   text-align: center;
   width: 25%;
@@ -8,7 +8,10 @@
 .header_logo img {
   height: 100px;
 }
-
+.navbar-nav{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
 .header_menu {
   text-align: right;
 }
@@ -52,13 +55,20 @@ h4 {
 }
 /*** hero ***/
 .hero {
-  background: url("../img/header_fon.jpg") no-repeat top center;
+  background: url("../img/header_fon.jpg") no-repeat top center fixed;
+  min-height: 100vh;
+
+  /*
   width: 100%;
-  height: 100%;
+  height: 100%
   background-attachment: fixed;
   margin-top: 0px;
-  /*min-height: 100%;*/
-    min-height: 100vh;
+  min-height: 100%;
+  */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .hero-logo {
@@ -67,7 +77,7 @@ h4 {
 }
 
 .hero-h1 {
-  margin: 50px auto 5px auto;
+  margin: 100px auto 5px auto;
   padding: 1px;
   text-align: center;
   border-radius: 5px;
@@ -127,9 +137,8 @@ h4 {
 
 /*** solutions ***/
 
-
-.our-solutions{
-  margin: 50px 0 100PX 0;
+.our-solutions {
+  margin: 50px 0 100px 0;
 }
 
 .our-solutions h2 {
@@ -175,8 +184,13 @@ h4 {
 
 /*** aboutus ***/
 
+.aboutus-white{
+/*  background-color: #ffffff;*/
+  min-height: 50px;
+}
+
 .aboutus-content {
-  background-color: #f7f5f5;
+ background-color: #f7f5f5;
 }
 
 .aboutus-left-block {
@@ -198,8 +212,8 @@ h4 {
   width: 80px;
   margin: 5px auto 15px 0px;
 }
-.aboutus-text p{
-  line-height:2.0rem;
+.aboutus-text p {
+  line-height: 2rem;
   letter-spacing: normal;
   text-align: justify;
   margin: 0 80px 0 0;
@@ -210,6 +224,10 @@ h4 {
   width: 100%;
   height: 100%;
   min-height: 619px;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /*** bg-section ***/
@@ -281,12 +299,12 @@ h4 {
   margin-bottom: 100px;
 }
 
-.contactus-h3{
-color: #3b3a3a;
+.contactus-h3 {
+  color: #3b3a3a;
 }
 
 .contactus-h4 {
-color: #3b3a3a;
+  color: #3b3a3a;
 }
 
 .form-control {
