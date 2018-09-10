@@ -48,6 +48,7 @@
 
 h2 {
   color: #c6c6c6;
+  font-family: 'Avenir LT 55 Roman';
 }
 
 h4 {
@@ -81,15 +82,14 @@ h4 {
   padding: 1px;
   text-align: center;
   border-radius: 5px;
-
   width: 100%;
   color: #ffffff;
 }
 
 .hero-h1 h1 {
   font-weight: bold;
-  font-family: kelly slab, fantasy;
-  font-size: 3.5em;
+  font-family: 'Avenir LT 55 Roman';
+  font-size: 4.5em;
 }
 
 .hero-p {
@@ -98,7 +98,6 @@ h4 {
   text-align: center;
   border-radius: 5px;
   padding: 5px;
-  font-family: kelly slab, fantasy;
   font-size: 1em;
   width: 46%;
 }
@@ -112,28 +111,8 @@ h4 {
   letter-spacing: 0.19em;
 }
 
-.hero-button {
-  margin: 53px auto 77px auto;
-  color: #ff8800;
-  font-size: 18px;
-  text-align: left !important;
-  border-radius: 5px;
-  font-family: "Jura", sans-serif;
-  letter-spacing: 4px !important;
-}
 
-.btn-outline-orange {
-  background-color: #ffffff;
-  margin: 20px auto 20px auto;
-  color: #000000;
-  font-size: 18px;
-  border-radius: 25px;
-  font-weight: bold;
-  letter-spacing: 0px;
-  margin-left: 80px;
-  font-family: "PosterBodoniBT-Roman";
-  font-family: "7380";
-}
+
 
 /*** solutions ***/
 
@@ -144,16 +123,16 @@ h4 {
 .our-solutions h2 {
   text-align: center;
   color: #c6c6c6;
-  font-family: "Play", sans-serif;
+  font-family: 'Avenir LT 55 Roman';
+  font-size: 3.5em;
   font-weight: bold;
   margin: 50px 0 0 0;
-  font-size: 45px;
   text-transform: uppercase;
 }
 
 .our-solutions .hr-h2 {
   text-align: center;
-  border: 4px solid #edcd1f;
+  border-top: 8px solid #edcd1f;
   width: 80px;
 }
 
@@ -174,7 +153,7 @@ h4 {
 }
 
 .our-solutions p {
-  font-family: "Jura", sans-serif;
+  font-family: 'Helvetica LT Std', sans-serif;
   color: #3b3a3a;
   text-align: justify;
   font-size: 16px;
@@ -185,8 +164,11 @@ h4 {
 /*** aboutus ***/
 
 .aboutus-white{
-/*  background-color: #ffffff;*/
+ background-color: #ffffff;
   min-height: 50px;
+}
+.aboutus-grey{
+  background-color: #F7F5F5
 }
 
 .aboutus-content {
@@ -199,20 +181,22 @@ h4 {
 .aboutus h2 {
   text-align: left;
   color: #c6c6c6;
-  font-family: "Play", sans-serif;
+    font-family: 'Avenir LT 55 Roman';
+  font-size: 3.5em;
   font-weight: bold;
   margin: 50px 0 0 0;
-  font-size: 45px;
-  text-transform: uppercase;
+   text-transform: uppercase;
 }
 
 .aboutus .hr-h2 {
   text-align: left;
-  border: 4px solid #edcd1f;
+    border-top: 8px solid #edcd1f;
   width: 80px;
   margin: 5px auto 15px 0px;
 }
 .aboutus-text p {
+  font-family: 'Helvetica LT Std', sans-serif;
+  color: #3b3a3a;
   line-height: 2rem;
   letter-spacing: normal;
   text-align: justify;
@@ -243,16 +227,16 @@ h4 {
 .gallery h2 {
   text-align: center;
   color: #c6c6c6;
-  font-family: "Play", sans-serif;
+  font-family: 'Avenir LT 55 Roman';
+  font-size: 3.5em;
   font-weight: bold;
   margin: 50px 0 0 0;
-  font-size: 45px;
   text-transform: uppercase;
 }
 
 .gallery .hr-h2 {
   text-align: center;
-  border: 4px solid #edcd1f;
+  border-top: 8px solid #edcd1f;
   width: 80px;
 }
 .gallery-block {
@@ -286,7 +270,7 @@ h4 {
 
 .contactus .hr-h2 {
   text-align: center;
-  border: 4px solid #edcd1f;
+    border-top: 8px solid #edcd1f;
   width: 80px;
 }
 
