@@ -106,7 +106,7 @@
   }
   /*** HERO ***/
 
-  /*** ABOUT US ***/
+  /*** ABOUT US ***/ 
 }
 
 /**
@@ -123,6 +123,12 @@
   /*** HERO ***/
 
   /*** ABOUT US ***/
+   .aboutus-text p{
+  line-height:2.0rem;
+  letter-spacing: normal;
+  text-align: justify;
+  margin: 0 90px 0 15px;
+}
 
   /***  OUR-SERVICE ***/
 }
