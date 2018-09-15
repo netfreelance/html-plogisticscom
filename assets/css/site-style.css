@@ -8,8 +8,8 @@
 .header_logo img {
   height: 100px;
 }
-.navbar-nav{
-  font-family: 'Open Sans', sans-serif;
+.navbar-nav {
+  font-family: "Open Sans", sans-serif;
   font-size: 15px;
 }
 .header_menu {
@@ -48,7 +48,7 @@
 
 h2 {
   color: #c6c6c6;
-  font-family: 'Avenir LT 55 Roman';
+  font-family: "Avenir LT 55 Roman";
 }
 
 h4 {
@@ -56,7 +56,8 @@ h4 {
 }
 /*** hero ***/
 .hero {
-  background: url("../img/header_fon.jpg") no-repeat top center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../img/header_fon.jpg") no-repeat top center fixed;
   min-height: 100vh;
 
   /*
@@ -88,7 +89,7 @@ h4 {
 
 .hero-h1 h1 {
   font-weight: bold;
-  font-family: 'Avenir LT 55 Roman';
+  font-family: "Avenir LT 55 Roman";
   font-size: 4.5em;
 }
 
@@ -111,9 +112,6 @@ h4 {
   letter-spacing: 0.19em;
 }
 
-
-
-
 /*** solutions ***/
 
 .our-solutions {
@@ -123,7 +121,7 @@ h4 {
 .our-solutions h2 {
   text-align: center;
   color: #c6c6c6;
-  font-family: 'Avenir LT 55 Roman';
+  font-family: "Avenir LT 55 Roman";
   font-size: 3.5em;
   font-weight: bold;
   margin: 50px 0 0 0;
@@ -153,7 +151,7 @@ h4 {
 }
 
 .our-solutions p {
-  font-family: 'Helvetica LT Std', sans-serif;
+  font-family: "Helvetica LT Std", sans-serif;
   color: #3b3a3a;
   text-align: justify;
   font-size: 16px;
@@ -163,16 +161,16 @@ h4 {
 
 /*** aboutus ***/
 
-.aboutus-white{
- background-color: #ffffff;
+.aboutus-white {
+  background-color: #ffffff;
   min-height: 50px;
 }
-.aboutus-grey{
-  background-color: #F7F5F5
+.aboutus-grey {
+  background-color: #f7f5f5;
 }
 
 .aboutus-content {
- background-color: #f7f5f5;
+  background-color: #f7f5f5;
 }
 
 .aboutus-left-block {
@@ -181,21 +179,21 @@ h4 {
 .aboutus h2 {
   text-align: left;
   color: #c6c6c6;
-    font-family: 'Avenir LT 55 Roman';
+  font-family: "Avenir LT 55 Roman";
   font-size: 4.5em;
   font-weight: bold;
   margin: 50px 0 0 0;
-   text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .aboutus .hr-h2 {
   text-align: left;
-    border-top: 8px solid #edcd1f;
+  border-top: 8px solid #edcd1f;
   width: 80px;
   margin: 5px auto 15px 0px;
 }
 .aboutus-text p {
-  font-family: 'Helvetica LT Std', sans-serif;
+  font-family: "Helvetica LT Std", sans-serif;
   color: #3b3a3a;
   line-height: 2rem;
   letter-spacing: normal;
@@ -208,7 +206,7 @@ h4 {
   width: 100%;
   height: 100%;
   min-height: 619px;
-   -webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -227,7 +225,7 @@ h4 {
 .gallery h2 {
   text-align: center;
   color: #c6c6c6;
-  font-family: 'Avenir LT 55 Roman';
+  font-family: "Avenir LT 55 Roman";
   font-size: 3.5em;
   font-weight: bold;
   margin: 50px 0 0 0;
@@ -270,7 +268,7 @@ h4 {
 
 .contactus .hr-h2 {
   text-align: center;
-    border-top: 8px solid #edcd1f;
+  border-top: 8px solid #edcd1f;
   width: 80px;
 }
 

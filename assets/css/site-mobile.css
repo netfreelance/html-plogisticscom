@@ -6,18 +6,18 @@
 
 @media (min-width: 0) {
   /*** MENU ***/
-.header_logo {
-  background-color: #50342c;
-}
+  .header_logo {
+    background-color: #50342c;
+  }
   /*** HERO ***/
-.hero-h1 h1 {
+  .hero-h1 h1 {
     font-size: 3.5em;
-}
+  }
   /*** ABOUT US ***/
-.aboutus-text p{
-  text-align: justify;
-  margin: 0 5px 0 5px;
-}
+  .aboutus-text p {
+    text-align: justify;
+    margin: 0 5px 0 5px;
+  }
   /*** OUR-SERVICE ***/
 
   /*** OUR SOLUTION ***/
@@ -39,16 +39,15 @@
   .aboutus h2 {
     text-align: center;
     margin: 50px 15px 0 15px;
-
-}
-.aboutus .hr-h2 {
+  }
+  .aboutus .hr-h2 {
     text-align: center;
     margin: 5px auto 15px auto;
-}
-.aboutus-text p{
-  text-align: justify;
-  margin: 0 15px 0 15px;
-}
+  }
+  .aboutus-text p {
+    text-align: justify;
+    margin: 0 15px 0 15px;
+  }
   /*** OUR-SERVICE ***/
 
   /*** OUR SOLUTION ***/
@@ -63,31 +62,31 @@
 @media (min-width: 576px) {
   /*** MENU ***/
   .navbar {
-    padding: 0 1rem  0 0;
+    padding: 0 1rem 0 0;
   }
-.navbar-collapse{
-   padding: 0.5rem 1rem;
+  .navbar-collapse {
+    padding: 0.5rem 1rem;
   }
   /*** HERO ***/
-.hero-h1 h1 {
+  .hero-h1 h1 {
     font-size: 4.5em;
-}
- /*** ABOUT US ***/
-.aboutus h2 {
-  text-align: left;
+  }
+  /*** ABOUT US ***/
+  .aboutus h2 {
+    text-align: left;
     margin: 50px 15px 0 15px;
-}
- .aboutus .hr-h2 {
-  text-align: left;
-  margin: 5px auto 15px 15px;
-}
+  }
+  .aboutus .hr-h2 {
+    text-align: left;
+    margin: 5px auto 15px 15px;
+  }
 
-  .aboutus-text p{
-  line-height:2.0rem;
-  letter-spacing: normal;
-  text-align: justify;
-  margin: 0 15px 0 15px;
-}
+  .aboutus-text p {
+    line-height: 2rem;
+    letter-spacing: normal;
+    text-align: justify;
+    margin: 0 15px 0 15px;
+  }
 }
 
 /**
@@ -99,14 +98,14 @@
 @media (min-width: 768px) {
   /*** MENU ***/
   .navbar {
-    padding: 0 1rem  0 0;
+    padding: 0 1rem 0 0;
   }
-  .navbar-collapse{
-   padding: 0.5rem 1rem;
+  .navbar-collapse {
+    padding: 0.5rem 1rem;
   }
   /*** HERO ***/
 
-  /*** ABOUT US ***/ 
+  /*** ABOUT US ***/
 }
 
 /**
@@ -118,17 +117,17 @@
 @media (min-width: 992px) {
   /*** MENU ***/
   .navbar {
-    padding: 0 1rem  0 0;
+    padding: 0 1rem 0 0;
   }
   /*** HERO ***/
 
   /*** ABOUT US ***/
-   .aboutus-text p{
-  line-height:2.0rem;
-  letter-spacing: normal;
-  text-align: justify;
-  margin: 0 90px 0 15px;
-}
+  .aboutus-text p {
+    line-height: 2rem;
+    letter-spacing: normal;
+    text-align: justify;
+    margin: 0 90px 0 15px;
+  }
 
   /***  OUR-SERVICE ***/
 }
@@ -141,9 +140,9 @@
 
 @media (min-width: 1200px) {
   /*** MENU ***/
-    .header_logo {
-  background-color: #e3d3b6;
-}
+  .header_logo {
+    background-color: #e3d3b6;
+  }
   .navbar {
     padding: 0;
   }
@@ -165,12 +164,12 @@
 @media (min-width: 1441px) {
   /*** MENU ***/
   .header_logo {
-  background-color: #e3d3b6;
-}
+    background-color: #e3d3b6;
+  }
   .navbar {
     padding: 0;
   }
-  
+
   /*** HERO ***/
 
   /*** OUR-SERVICE ***/
