@@ -1,176 +1,27 @@
-/**
-начиная с разрешения 0px,
-на разрешениях  ниже 0px
-будет действовать  основной стиль.
-*/
-
-@media (min-width: 0) {
-  /*** MENU ***/
-  .header_logo {
-    background-color: #50342c;
-  }
-  /*** HERO ***/
-  .hero-h1 h1 {
-    font-size: 3.5em;
-  }
-  /*** ABOUT US ***/
-  .aboutus-text p {
-    text-align: justify;
-    margin: 0 5px 0 5px;
-  }
-  /*** OUR-SERVICE ***/
-
-  /*** OUR SOLUTION ***/
+@media (min-width:0){.header_logo{background-color:#50342c;}
+.hero-h1 h1{font-size:3.5em;}
+.aboutus-text p{text-align:justify;margin:0 5px 0 5px;}
 }
-
-/**
-начиная с разрешения 320px,
-на разрешениях  ниже 320px
-будет действовать  основной стиль.
-*/
-
-@media (min-width: 320px) {
-  /*** MENU ***/
-
-  /*** HERO ***/
-
-  /*** ABOUT US ***/
-
-  .aboutus h2 {
-    text-align: center;
-    margin: 50px 15px 0 15px;
-  }
-  .aboutus .hr-h2 {
-    text-align: center;
-    margin: 5px auto 15px auto;
-  }
-  .aboutus-text p {
-    text-align: justify;
-    margin: 0 15px 0 15px;
-  }
-  /*** OUR-SERVICE ***/
-
-  /*** OUR SOLUTION ***/
+@media (min-width:320px){.aboutus h2{text-align:center;margin:50px 15px 0 15px;}
+.aboutus .hr-h2{text-align:center;margin:5px auto 15px auto;}
+.aboutus-text p{text-align:justify;margin:0 15px 0 15px;}
 }
-
-/**
-начиная с разрешения 576px,
-на разрешениях  ниже 576px
-будет действовать  основной стиль.
-*/
-
-@media (min-width: 576px) {
-  /*** MENU ***/
-  .navbar {
-    padding: 0 1rem 0 0;
-  }
-  .navbar-collapse {
-    padding: 0.5rem 1rem;
-  }
-  /*** HERO ***/
-  .hero-h1 h1 {
-    font-size: 4.5em;
-  }
-  /*** ABOUT US ***/
-  .aboutus h2 {
-    text-align: left;
-    margin: 50px 15px 0 15px;
-  }
-  .aboutus .hr-h2 {
-    text-align: left;
-    margin: 5px auto 15px 15px;
-  }
-
-  .aboutus-text p {
-    line-height: 2rem;
-    letter-spacing: normal;
-    text-align: justify;
-    margin: 0 15px 0 15px;
-  }
+@media (min-width:576px){.navbar{padding:0 1rem 0 0;}
+.navbar-collapse{padding:0.5rem 1rem;}
+.hero-h1 h1{font-size:4.5em;}
+.aboutus h2{text-align:left;margin:50px 15px 0 15px;}
+.aboutus .hr-h2{text-align:left;margin:5px auto 15px 15px;}
+.aboutus-text p{line-height:2rem;letter-spacing:normal;text-align:justify;margin:0 15px 0 15px;}
 }
-
-/**
-начиная с разрешения 768px,
-на разрешениях  ниже 768px
-будет действовать  основной стиль.
-*/
-
-@media (min-width: 768px) {
-  /*** MENU ***/
-  .navbar {
-    padding: 0 1rem 0 0;
-  }
-  .navbar-collapse {
-    padding: 0.5rem 1rem;
-  }
-  /*** HERO ***/
-
-  /*** ABOUT US ***/
+@media (min-width:768px){.navbar{padding:0 1rem 0 0;}
+.navbar-collapse{padding:0.5rem 1rem;}
 }
-
-/**
-начиная с разрешения 992px,
-на разрешениях  ниже 992px
-будет действовать  основной стиль.
-*/
-
-@media (min-width: 992px) {
-  /*** MENU ***/
-  .navbar {
-    padding: 0 1rem 0 0;
-  }
-  /*** HERO ***/
-
-  /*** ABOUT US ***/
-  .aboutus-text p {
-    line-height: 2rem;
-    letter-spacing: normal;
-    text-align: justify;
-    margin: 0 90px 0 15px;
-  }
-
-  /***  OUR-SERVICE ***/
+@media (min-width:992px){.navbar{padding:0 1rem 0 0;}
+.aboutus-text p{line-height:2rem;letter-spacing:normal;text-align:justify;margin:0 90px 0 15px;}
 }
-
-/**
-начиная с разрешения 1200px,
-на разрешениях  ниже 1200px
-будет действовать  основной стиль.
-*/
-
-@media (min-width: 1200px) {
-  /*** MENU ***/
-  .header_logo {
-    background-color: #e3d3b6;
-  }
-  .navbar {
-    padding: 0;
-  }
-  /*** HERO ***/
-
-  /*** OUR-SERVICE ***/
-
-  /*** ABOUT US ***/
-
-  /*** OUR SOLUTION ***/
+@media (min-width:1200px){.header_logo{background-color:#e3d3b6;}
+.navbar{padding:0;}
 }
-
-/**
-начиная с разрешения 1440px,
-на разрешениях  ниже 1440px
-будет действовать  основной стиль.
-*/
-
-@media (min-width: 1441px) {
-  /*** MENU ***/
-  .header_logo {
-    background-color: #e3d3b6;
-  }
-  .navbar {
-    padding: 0;
-  }
-
-  /*** HERO ***/
-
-  /*** OUR-SERVICE ***/
+@media (min-width:1441px){.header_logo{background-color:#e3d3b6;}
+.navbar{padding:0;}
 }
